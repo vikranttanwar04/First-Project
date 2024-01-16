@@ -1,0 +1,24 @@
+@media(max-width: 991px){
+    .head1 ul a{
+        display: none;
+    }
+
+    .sub-hero{
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+        "match1 match2"
+        "match3 match4";
+        justify-items: center;
+    }
+}
+
+@media(max-width: 906px){
+    .main-container, .Ist-ad, header, .sub-hero{
+        width : 100vw;
+        margin : 0.3rem;
+    }
+
+    .ipl-auction, .all-news-updates{
+        width: 100vw;
+    }
+}

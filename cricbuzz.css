@@ -1,0 +1,201 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main-container{
+    padding: 0;
+    height: 100vh; 
+    margin: 1rem 5rem;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.Ist-ad{
+    background-image: url(image/aid2.jpg);
+    background-size: cover;
+}
+
+header{
+    width: 100%;
+}
+
+header img{
+    width: 6.31rem;
+}
+
+header ul{
+    width: 80%;
+    height: 100%;
+    font-size: 0.8rem;
+}
+
+.head-icons a i{
+    width: 1.25rem;
+    height: 1.25rem;
+}
+
+header ul .badge{
+    width: 7.09rem;
+    height: 1.9rem;
+    font-size: 0.875rem;
+    font-weight: normal;
+    border-radius: 1.125rem;
+}
+
+/* HEAD 2 */
+.head2{
+    background-color: #4A4A4A;
+}
+
+.head2 ul li:hover{
+    background-color: rgb(66, 66, 66);
+}
+
+.all:hover{
+    background-color: rgb(66, 66, 66);
+}
+
+/* Main */
+.sub-hero{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 1rem;
+}
+
+.matches{
+    width: 15.6rem;
+    height: 8.8rem;
+    margin: 0.5rem;
+    margin-left: 0;
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: 35% 50% 15%;
+    padding: 0.5rem;
+    align-items: center;
+    /* line-height: 1; */
+    border-radius: 0.3rem;
+    background-color: #FFF;
+}
+
+.formet{
+    width: 2.1rem;
+    height: 1rem;
+    font-size: 0.6rem;
+    justify-self: center;
+}
+
+.matches p{
+    font-size: 0.6rem;
+    grid-column: 1/3;
+}
+
+.matches img{
+    width: 1.1rem;
+    margin-right: 0.4rem;
+}
+
+#result{
+    grid-column: 1/4;
+}
+
+.schedule{
+    margin: 0;
+    font-size: 0.7rem;
+    align-self: center;
+    justify-self: end;
+    background-color: #E3E6E3;
+    color: #0000008A;
+}
+
+.schedule3{
+    justify-self: end;
+}
+
+.test{
+    background-color: #E90B37;
+}
+
+.t20{
+    background-color: #464646;
+}
+
+.odi{
+    background-color: #0579BC;
+}
+
+/* IPL AUCTION */
+.ipl-auction{
+    font-size: 0.8rem;
+    background-color: #FFF;
+    padding: 0.6rem 0.9rem;
+    margin-left: 0;
+    margin-bottom: 0.9rem;
+}
+
+.ipl-auction li a{
+    color: #1866DB;
+}
+
+.ipl-auction li a:hover{
+    text-decoration: underline;
+}
+
+.all-news-updates{
+    display: grid;
+    grid-template-columns: 16% 52.5% 30%;
+    grid-gap: 0.5rem;
+}
+
+.latest-news{
+    padding: 0;
+    margin-bottom: 0.9rem;
+    background-color: #FFF;
+}
+
+.latest-news div{
+    width: 100%;
+}
+
+.latest-news a:hover, .posters a:hover{
+    text-decoration: underline;
+}
+
+.posters{
+    background-color: #FFF;
+    padding: 0.9rem;
+    margin-bottom: 0.9rem;
+}
+
+.posters img{
+    width: 100%;
+    border-radius: 4px;
+}
+
+.video-news{
+    display: flex;
+    flex-direction: column;
+}
+
+.videos{
+    padding: 0.9rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #FFF;
+}
+
+.videos a ~ a{
+    font-size: 1rem; 
+    color: #222;
+    font-weight: bold;
+}
+
+.videos a ~ a:hover{
+    text-decoration: underline;
+}

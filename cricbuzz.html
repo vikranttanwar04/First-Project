@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="image/cricbuzz logo.png">
+    <title>Live Cricket Score, Schedule, Latest News, Stats & Videos | Cricbuzz.com</title>
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="cricbuzz.css">
+    <link rel="stylesheet" href="mediaQueries.css">
+</head>
+
+<body style="background-color: #E3E6E3;">
+    <div class="container main-container">
+
+        <aside class="Ist-ad mt-1 mb-1 bg-info" style="height: 5.49rem;"></aside>
+
+        <header>
+            <div class="head1 pt-2 pb-2 px-3 pe-0 d-flex flex-row justify-content-around align-items-center" style="background-color: #009270;">
+                <img src="/image/Cricbuzz Logo header.png" alt="cricbuzz-logo">
+
+                <ul class="list-unstyled m-0 d-flex justify-content-evenly align-items-center">
+                    <li><a href="#">Live Scores</a></li>
+                    <li><a href="#">Schedule</a></li>
+                    <li><a href="#">Archives</a></li>
+                    <li><a href="#">News</a></li>
+                    <li><a href="#">Series</a></li>
+                    <li><a href="#">Teams</a></li>
+                    <li><a href="#">Videos</a></li>
+                    <li><a href="#">Rankings</a></li>
+                    <li><a href="#">More</a></li>
+                    <a href="#" class="badge round-pills text-secondary bg-light d-flex align-items-center justify-content-center">Cricbuzz Plus</a>
+                </ul>
+
+                <div class="head-icons d-flex justify-content-evenly align-items-center" style="width: 10%;">
+                    <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+                    <a href=""><i class="fa-solid fa-user"></i></a>
+                </div>
+            </div>
+
+            <div class="head2 d-flex align-items-center justify-content-between">
+                <ul class="list-unstyled m-0 d-flex align-items-center" style="width:90%; font-size: 0.75rem; font-weight: 500;">
+                    <li class="p-2" style="background-color: rgb(36, 35, 35);"><a href="#">MATCHES</a></li>
+                    <li class="p-2"><a href="#">AUSW vs INDW - Stumps</a></li>
+                    <li class="p-2"><a href="#">MLR vs HBH - HBH Won</a></li>
+                    <li class="p-2"><a href="#">MLS vs SYt - SYT Won</a></li>
+                    <li class="p-2"><a href="#">RSAW vs BANW - Live</a></li>
+                    <li class="p-2"><a href="#">NZ vs BAN - BAN Won</a></li>
+                </ul>
+
+                <a href="#" class="all p-2 d-flex justify-content-center align-items-center" style="font-size: 0.75rem; width: 5%; height:inherit;">ALL</a>
+            </div>
+        </header>
+
+        <main>
+            <div class="sub-hero">
+                <a href="" class="matches">
+                    <p class="m-0" style="color:#464646;">Only Test - Australia Women tour of India</p>
+                    <div class="formet test badge rounded-pill d-flex align-items-center justify-content-center">Test</div>
+
+                    <div><img src="image/Australian-Flag.webp"><span style="color:#222;">AUSW</span></div>
+                    <span style="justify-self: center; color:#222;">219</span>
+
+                    <div style="grid-column: 1/2;"><img src="image/Indian-Flag.png"><span style="color:#666;">INDW</span></div>
+                    <span style="justify-self: center; color:#666;">283-7</span>
+
+                    <p class="m-0 text-danger" id="result" style="font-size: 0.7rem; font-weight: 600;">Day 2: 3rd Session - India Women lead b...</p>
+                    <p class="schedule" style="grid-column: 3/4;">SCHEDULE</p>
+                </a>
+
+                <a href="" class="matches">
+                    <p class="m-0" style="color:#464646;">13th Match - Big Bash League 2023-24</p>
+
+                    <div class="formet t20 badge rounded-pill d-flex align-items-center justify-content-center">T20</div>
+
+                    <div><img src="image/Australian-Flag.webp"><span style="color:#222;">MLR</span></div>
+                    <span style="justify-self: start; color:#222; grid-column: 2/4;">183-5 (20)</span>
+
+                    <div><img src="image/Indian-Flag.png"><span id="INDW" style="color:#666;">HBH</span></div>
+                    <span style="justify-self: start; color:#666;">187-4 (19)</span>
+
+                    <p class="m-0" id="result" style="font-size: 0.7rem; font-weight: 600; color: #1866DB;">Hobart Hurricanes won by 6 wkts</p>
+
+                    <span class="schedule3 schedule">FANTASY</span>
+                    <span class="schedule3 schedule" style="justify-self: center;">TABLE</span>
+                    <span class="schedule3 schedule">SCHEDULE</span>
+                </a>
+
+                <a href="" class="matches">
+                    <p class="m-0" style="color:#464646;">12th Match - Big Bash League 2023-24</p>
+                    <div class="formet t20 badge rounded-pill d-flex align-items-center justify-content-center">T20</div>
+
+                    <div><img src="image/Australian-Flag.webp"><span style="color:#222;">MLS</span></div>
+                    <span style="justify-self: start; color:#222; grid-column: 2/4;">172 (20)</span>
+
+                    <div><img src="image/Indian-Flag.png"><span id="INDW" style="color:#666;">SYT</span></div>
+                    <span style="justify-self: start; color:#666;">176-5 (18.2)</span>
+
+                    <p class="m-0" id="result" style="font-size: 0.7rem; font-weight: 600; color: #1866DB;">Sydney Thunder won by 5 wkts</p>
+
+                    <span class="schedule3 schedule">FANTASY</span>
+                    <span class="schedule3 schedule" style="justify-self: center;">TABLE</span>
+                    <span class="schedule3 schedule">SCHEDULE</span>
+                </a>
+
+                <a href="" class="matches matches4">
+                    <p class="m-0" style="color:#464646;">3rd ODI (ICC Championship Match) - Ban...</p>
+                    <div class="formet odi badge rounded-pill d-flex align-items-center justify-content-center">T20</div>
+
+                    <div><img src="image/Australian-Flag.webp"><span style="color:#222;">RSAW</span></div>
+                    <span style="justify-self: start; color:#222; grid-column: 2/4;">276-2 (46.4)</span>
+
+                    <div><img src="image/Indian-Flag.png"><span style="color:#666;">BANW</span></div>
+                    <span style="justify-self: start; color:#666;"></span>
+
+                    <p class="m-0 text-danger" id="result" style="font-size: 0.7rem; font-weight: 600;">South African Women opt to bat</p>
+
+                    <span class="schedule3 schedule">FANTASY</span>
+                    <span class="schedule3 schedule" style="justify-self: center;">TABLE</span>
+                    <span class="schedule3 schedule">SCHEDULE</span>
+                </a>
+            </div>
+
+            <div class="ipl-auction container me-0 d-flex align-items-center">
+                <ul class="list-unstyled m-0 d-flex align-items-center">
+                    <li class="me-3" style="font-size: 1.1rem; font-weight: bold;"><a href="" style="color: #222;">IPL Auction Tracker</a></li>
+                    <li class="me-3"><a href="">Live</a></li>
+                    <li class="me-3"><a href="">Completed</a></li>
+                    <li class="me-3"><a href="">Players</a></li>
+                    <li class="me-3"><a href="">Teams</a></li>
+                </ul>
+            </div>
+
+            <div class="all-news-updates">
+
+                <div class="latest-news container d-flex flex-column" style="background-color: #E3E6E3;">
+                    <div style="background-color: #FFF; padding: 0.9rem;">
+                        <h2 style="color: #009270; font-size: 1rem; font-weight: bold;">LATEST NEWS</h2>
+
+                        <a href="" class="m-0" style="font-size: 0.8rem; color: #222;">Plan was to create pressure with dot balls - Deepti</a>
+                        <p class="m-0" style="font-size: 0.75rem; color: #666;">24m ago</p>
+                        <hr>
+
+                        <a href="" class="m-0" style="font-size: 0.8rem; color: #222;">CPL changes: Jamaica owners move to Antigua: no Tallawahs next season</a>
+                        <p class="m-0" style="font-size: 0.75rem; color: #666;">5h ago</p>
+                        <hr>
+
+                        <a href="" class="m-0" style="font-size: 0.8rem; color: #222;">Would have been happier with a series win - Najmul</a>
+                        <p class="m-0" style="font-size: 0.75rem; color: #666;">5h ago</p>
+                        <hr>
+
+                        <a href="" class="m-0" style="font-size: 0.8rem; color: #222;">Abhimanyu Easwaran added to India's Test squad</a>
+                        <p class="m-0" style="font-size: 0.75rem; color: #666;">6h ago</p>
+                        <hr>
+
+                        <a href="" class="m-0" style="font-size: 0.8rem; color: #222;">Buttler happy for the lessons despite tough defeats in the Caribbean</a>
+                        <p class="m-0" style="font-size: 0.75rem; color: #666;">9h ago</p>
+                        <hr>
+
+                        <a href="" class="m-0" style="font-size: 0.8rem; color: #222;">Noman Ali out of Australia tour after undergoing appendectomy</a>
+                        <p class="m-0" style="font-size: 0.75rem; color: #666;">11h ago</p>
+                        <hr>
+
+                        <a href="" class="m-0" style="font-size: 0.8rem; color: #222;">Kohli leaves SA due to family emergency; Gaikwad ruled out of series</a>
+                        <p class="m-0" style="font-size: 0.75rem; color: #666;">1d ago</p>
+                        <hr>
+
+                        <a href="" class="m-0" style="font-size: 0.8rem; color: #222;">ACB likely to not grant NOC to Mujeeb, Fazal and Naveen</a>
+                        <p class="m-0" style="font-size: 0.75rem; color: #666;">1d ago</p>
+                        <hr>
+
+                        <a href="" class="m-0" style="font-size: 0.8rem; color: #222;">Blurred vision affected Shakib's batting in 2023 World Cup</a>
+                        <p class="m-0" style="font-size: 0.75rem; color: #666;">1d ago</p>
+                        <hr>
+
+                        <a href="" class="m-0" style="font-size: 0.8rem; color: #222;">South Africa the toughest place to play for a batter - Rohit</a>
+                        <p class="m-0" style="font-size: 0.75rem; color: #666;">1d ago</p>
+                        <hr>
+
+                        <a href="" class="m-0" style="font-size: 0.8rem; color: #222;">Four uncapped players picked for Australia ODIs</a>
+                        <p class="m-0" style="font-size: 0.75rem; color: #666;">1d ago</p>
+                        <hr>
+
+                        <a href="" class="m-0" style="font-size: 0.8rem; color: #222;">One Test is never a fair assessment: Shan Masood</a>
+                        <p class="m-0" style="font-size: 0.75rem; color: #666;">1d ago</p>
+                        <hr>
+
+                        <a href="" class="m-0" style="font-size: 0.8rem; color: #222;">Cummins continues to back Usman Khawaja's symbol of peace</a>
+                        <p class="m-0 mb-2" style="font-size: 0.75rem; color: #666;">1d ago</p>
+
+                        <a href="" style="color: #1866DB; font-size: 0.75rem;"><i>More Photos..</i></a>
+                    </div>
+                    <br>
+
+                    <div style="background-color: #fff; padding: 0.9rem;">
+                        <h2 style="color: #009270; font-size: 1rem; font-weight: bold;">SCHEDULE</h2>
+                        <p class="m-0" style="font-size: 0.8rem; color: #222;">Australia vs Pakistan, 2nd Test, Day 1</p>
+                        <p class="m-0" style="font-size: 0.75rem; color: #666;">Tue Dec 26 5:00 AM (Dec 26) GMT</p>
+                        <hr>
+                        
+                        <p class="m-0" style="font-size: 0.8rem; color: #222;">South Africa vs India, 1st Test, Day 1</p>
+                        <p class="m-0" style="font-size: 0.75rem; color: #666;">Tue Dec 26 1:30 PM GMT</p>
+                        <hr>
+
+                        <p class="m-0" style="font-size: 0.8rem; color: #222;">Australia vs Pakistan, 2nd Test, Day 2</p>
+                        <p class="m-0" style="font-size: 0.75rem; color: #666;">Wed Dec 27 5:00 AM (Dec 27) GMT</p>
+                        <hr>
+
+                        <p class="m-0" style="font-size: 0.8rem; color: #222;">New Zealand vs Bangladesh, 1st T20I</p>
+                        <p class="m-0" style="font-size: 0.75rem; color: #666;">Wed Dec 27 11:40 AM GMT</p>
+                        <hr>
+                    </div>
+
+                </div>
+
+                <div class="posters container">
+                    <div style="font-size: 0.75rem; color: #666; padding-bottom: 0.6rem;">INDIA TOUR OF SOUTH AFRICA 2023-24</div>
+
+                    <a href="image/DEAN ALGER.webp"><img src="image/DEAN ALGER.webp" alt="Dean Algar"></a>
+                    <a href="" style="font-size: 1.5rem; color: #222; font-weight: bold;">South Africa contemplate life after Elgar</a>
+                    <p class="m-0" style="font-size: 0.9rem; color: #666;">"If some of the young bucks are going to step into those big shoes, if they can have half the characteristics and the qualities that Dean has, then we'll be in a good space," believes Shukri Conrad</p>
+                    <a href="" style="color: #1866DB; font-size: 0.9rem; font-weight: 650;">Elgar's march of pomp and circumstance</a>
+                    <hr>
+
+                    <div style="font-size: 0.75rem; color: #666; padding-bottom: 0.6rem;">AUSTRALIA WOMEN'S TOUR OF INDIA</div>
+
+                    <a href="/image/Mcgrath.webp"><img src="image/Mcgrath.webp" alt="Mcgrath Playing"></a>
+                    <a href="" style="font-size: 1.5rem; color: #222; font-weight: bold;">	McGrath leads Australia's fight but India still in command</a>
+                    <p class="m-0" style="font-size: 0.9rem; color: #666;">Australia took a 46-run lead with five wickets in hand on a slow-moving third day's play</p>
+                    <a href="" style="color: #1866DB; font-size: 0.9rem; font-weight: 650;">Plan was to create pressure with dot balls - Deepti</a>
+                    <hr>
+
+                    <div style="font-size: 0.75rem; color: #666; padding-bottom: 0.6rem;">IPL TITLE SPONSER</div>
+
+                    <a href="/image/IPL.webp"><img src="image/IPL.webp" alt="Mcgrath Playing"></a>
+                    <a href="" style="font-size: 1.5rem; color: #222; font-weight: bold;">	IPL title rights: BCCI outlines stringent conditions; may disallow Chinese brands</a>
+                    <p class="m-0" style="font-size: 0.9rem; color: #666;">The need for a new title sponsor arose as the previous deal with the Tata Group concluded after the last season</p>
+
+                    <a href="/image/IPL.webp"><img src="image/IPL.webp" alt="Mcgrath Playing"></a>
+                    <a href="" style="font-size: 1.5rem; color: #222; font-weight: bold;">	IPL title rights: BCCI outlines stringent conditions; may disallow Chinese brands</a>
+                    <p class="m-0" style="font-size: 0.9rem; color: #666;">The need for a new title sponsor arose as the previous deal with the Tata Group concluded after the last season</p>
+
+                    <a href="/image/IPL.webp"><img src="image/IPL.webp" alt="Mcgrath Playing"></a>
+                    <a href="" style="font-size: 1.5rem; color: #222; font-weight: bold;">	IPL title rights: BCCI outlines stringent conditions; may disallow Chinese brands</a>
+                    <p class="m-0" style="font-size: 0.9rem; color: #666;">The need for a new title sponsor arose as the previous deal with the Tata Group concluded after the last season</p>
+
+                    <a href="/image/IPL.webp"><img src="image/IPL.webp" alt="Mcgrath Playing"></a>
+                    <a href="" style="font-size: 1.5rem; color: #222; font-weight: bold;">	IPL title rights: BCCI outlines stringent conditions; may disallow Chinese brands</a>
+                    <p class="m-0" style="font-size: 0.9rem; color: #666;">The need for a new title sponsor arose as the previous deal with the Tata Group concluded after the last season</p>
+
+                </div>
+
+                <div class="video-news">
+                    <aside class="IInd-ad d-flex justify-content-center" style="background-color: #FFF; padding: 0.9rem;"><img style="width: 100%;" src="/image/Ad2.jpg"></aside><br>
+
+                    <div class="videos container">
+                        <h4 style="color: #009270; font-size: 1rem; font-weight: bold;">FEATURED VIDEOS</h4>
+
+                        <a href="/image/Pujji-rahane.webp"><img class="mb-2" src="/image/Pujji-rahane.webp" alt="Pujji-Rahane" style="width: 100%; border-radius: 4px;"></a>
+                        <a href="">End of the road for Ajinkya Rahane & Cheteshwar Pujara? Cricbuzz Live discuss</a>
+                        <p style="font-size: 0.75rem;">2h ago</p>
+
+                        <a href="/image/Henrich.webp"><img class="mb-2" src="/image/Henrich.webp" alt="Henrich Klaseen" style="width: 100%; border-radius: 4px;"></a>
+                        <a href="">South Africa need to address their trend of batting collapses: Dinesh Karthik</a>
+                        <p style="font-size: 0.75rem;">2d ago</p>
+
+                        <a href="image/Sanju -Arshdeep.webp"><img class="mb-2" src="/image/Sanju -Arshdeep.webp" alt="Sanju-Arshdeep" style="width: 100%; border-radius: 4px;"></a>
+                        <a href="">Answered: What are the positives for India from the ODI series win vs South Africa?</a>
+                        <p style="font-size: 0.75rem;">2d ago</p>
+
+                        <center><a class="btn p-1" href="" style="background-color: #009270; color: #FFF; width: 7.3rem;">More Videos</a></center>
+                    </div>
+                </div>
+
+            </div>
+        </main>
+    </div>
+
+    <script src="cricbuzz.js"></script>
+</body>
+</html>
